@@ -76,13 +76,13 @@ python
 
 1. 製作圖文
  
- * 設定檔
- 
- * 把設定檔上傳至line取得id
- 
- * 把圖片上傳至指定的id
- 
- * 綁定用戶跟圖文選單
+    * 設定檔
+
+    * 把設定檔上傳至line取得id
+
+    * 把圖片上傳至指定的id
+
+    * 綁定用戶跟圖文選單
 
 2. 取資料
 
@@ -106,8 +106,11 @@ git push heroku master
 ### <h3 id="2-2">GITHUB</h3>
 
 假設我現在在桌面創新資料夾，並開啟cmd
+
 * git blame >>> 查看這個爛code誰寫。
+
 * git log >>> 查看異動紀錄。
+
 * git clone url >>> download repo
 
 python
