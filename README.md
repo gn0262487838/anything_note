@@ -16,7 +16,7 @@
    
 > [Jupyter on AWS EC2 for remote](#3)
 
-> [DockerInstall](#4)
+> [Docker](#4)
 
    * [Graph](#4-1)
 
