@@ -40,7 +40,7 @@
 
 3. search your bot api info and insert info to code 
 
-'''python
+```python
 # line_secret_key code
 {
   "channel_access_token":"your token",
@@ -49,7 +49,7 @@
   "rich_menu_id":"放入生成自定義菜單的id",
   "server_url":"ngrok url or bababa..."
 }
-'''
+```
 
 ### 經典款實作
 
