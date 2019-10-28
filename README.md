@@ -38,6 +38,12 @@
 
    * [jupyter/base-notebook image QA](#4-10)
    
+> [TENSORFLOW](#5)
+
+   * [Linux install command](#5-1)
+   
+   * [Linux uninstall command](#5-2)
+   
    
 ## <h3 id="1">LINE BOT</h3>
 
@@ -392,3 +398,44 @@ A.$ docker run -it --net=host --user root -e GRANT_SUDO=yes jupyter/base-noteboo
 * --user root 指定使用者為root
 
 * -e 設定環境變數?
+
+
+## <h3 id="5">TensorFlow</h5>
+
+### <h3 id="5-1">Linux install command</h3>
+
+ubuntu
+```ubuntu
+# check version
+$ python3 --version
+$ pip3 --version
+$ virtualenv --version
+
+# if not,please install 
+$ sudo apt update
+$ sudo apt install python3-dev python3-pip python3-virtualenv
+
+# create a new virtual environment
+
+# reate a new virtual environment by choosing a Python interpreter and making a ./venv directory to hold it
+$ virtualenv --system-site-packages -p python3 ./venv
+# Activate the virtual environment using a shell-specific command
+$ source ./venv/bin/activate
+
+
+# install tensorflow & keras
+(venv) $ pip install tensorflow
+(venv) $ pip install keras
+
+# exit virtualenv
+$ deactivate
+```
+
+### <h3 id="5-2">Linux uninstall command</h3>
+
+ubuntu
+```ubuntu
+# uninstall
+# -r "targetdirectory"
+$ rm -r ./venv
+```
