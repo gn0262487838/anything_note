@@ -122,8 +122,12 @@ python
 python
 ```python
 # Install the Heroku CLI 
+```
 
+cmd
+```cmd
 # 檔案上傳指令
+
 heroku login
 git add .
 git commit -m "message"
@@ -283,17 +287,21 @@ coming soon
 ubuntu
 ```linux
 # 查看目前映像
+
 $ docker images
 
 # 從倉庫下載映像
+
 $ docker pull ubuntu:18.04
 or
 $ docker pull registry.hub.docker.com/ubuntu:18.04
 
 # 刪除映像
+
 $ docker rmi -f ImageID 
 
 # run for new building container
+
 $ docker run -itd -p 80:80 -p 443:8000 ubuntu:18.04 /bin/bash
 '''
 -t >>> 讓Docker分配一個虛擬終端（pseudo-tty）並綁定到容器的標準輸入上。
@@ -311,21 +319,27 @@ $ docker run -itd -p 80:80 -p 443:8000 ubuntu:18.04 /bin/bash
 '''
 
 # run for stopping container
+
 $ docker start containerID
 
 # stop container
+
 $ docker stop containerID
 
 # restart container
+
 $ docker restart containerID
 
 # delete container
+
 $ docker rm containerID
 
 # 進入在運作的container
+
 $ docker exec -it containerID bash
 
 # 查看目前的container
+
 $ docker ps -all
 ```
 
@@ -418,7 +432,6 @@ $ sudo apt update
 $ sudo apt install python3-dev python3-pip python3-virtualenv
 
 # create a new virtual environment
-
 # reate a new virtual environment by choosing a Python interpreter and making a ./venv directory to hold it
 
 $ virtualenv --system-site-packages -p python3 ./venv
