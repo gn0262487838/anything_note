@@ -129,30 +129,33 @@ git push heroku master
 
 > check installs
 
+ubuntu
 ```linux
-sudo apt-get update
+$ sudo apt-get update
 
-sudo apt-get python3-pip python3-dev python-venv
+$ sudo apt-get python3-pip python3-dev python-venv
 
-sudo apt-get install git
+$ sudo apt-get install git
 
-sudo apt-get install ufw
+$ sudo apt-get install ufw
 
-sudo ufw allow ssh
+$ sudo ufw allow ssh
 
-sudo python3 -m pip install jupyter
+$ sudo python3 -m pip install jupyter
 ```
 
 > generate jupyter config
 
+ubuntu
 ```linux
-jupyter notebook --generate-config
+$ jupyter notebook --generate-config
 
-cd 'The config file should be located under path'
+$ cd 'The config file should be located under path'
 
-ipython
+$ ipython
 ```
 
+python
 ```python
 from notebook.auth import passwd
 passwd()
@@ -160,10 +163,12 @@ passwd()
 # remember your password
 ```
 
+ubuntu
 ```linux
 vim ~/.jupyter/jupyter_notebook_config.py 
 ```
 
+python
 ```python
 # Notebook config
 
