@@ -407,27 +407,34 @@ A.$ docker run -it --net=host --user root -e GRANT_SUDO=yes jupyter/base-noteboo
 ubuntu
 ```ubuntu
 # check version
+
 $ python3 --version
 $ pip3 --version
 $ virtualenv --version
 
 # if not,please install 
+
 $ sudo apt update
 $ sudo apt install python3-dev python3-pip python3-virtualenv
 
 # create a new virtual environment
 
 # reate a new virtual environment by choosing a Python interpreter and making a ./venv directory to hold it
+
 $ virtualenv --system-site-packages -p python3 ./venv
+
 # Activate the virtual environment using a shell-specific command
+
 $ source ./venv/bin/activate
 
 
 # install tensorflow & keras
+
 (venv) $ pip install tensorflow
 (venv) $ pip install keras
 
 # exit virtualenv
+
 $ deactivate
 ```
 
@@ -437,5 +444,6 @@ ubuntu
 ```ubuntu
 # uninstall
 # -r "targetdirectory"
+
 $ rm -r ./venv
 ```
