@@ -216,7 +216,7 @@ c.NotebookApp.port = 8888
 
 ### <h3 id="4-1">Graph</h3>
 
-> 比較一下傳統與Docker的差別。
+比較一下傳統與Docker的差別。
 
 ![](https://camo.githubusercontent.com/7a4ea08672138edaffe9bc70dd9a92400593a178/68747470733a2f2f692e696d6775722e636f6d2f49716947796f4a2e706e67)
 
