@@ -58,6 +58,7 @@
 
 3. search your bot api info and insert info to code 
 
+python
 ```python
 # line_secret_key code
 {
@@ -91,6 +92,7 @@
 
 ### <h3 id="2-1">HEROKU</h3>
 
+python
 ```python
 # Install the Heroku CLI 
 
@@ -108,6 +110,7 @@ git push heroku master
 * git log >>> 查看異動紀錄。
 * git clone url >>> download repo
 
+python
 ```python
 # 初始化
 1. git init 初始化資料夾
@@ -116,6 +119,7 @@ git push heroku master
 4. git status 檢查資料狀態
 ```
 
+python
 ```python
 # 開始使用
 3. git add "檔名" or git add . ;表所有檔案
@@ -125,9 +129,9 @@ git push heroku master
 
 ## <h3 id="3">Jupyter on AWS EC2 for remote</h3>
 
-> log in AWS EC2 instance
+1. log in AWS EC2 instance
 
-> check installs
+2. check installs
 
 ubuntu
 ```linux
@@ -144,7 +148,7 @@ $ sudo ufw allow ssh
 $ sudo python3 -m pip install jupyter
 ```
 
-> generate jupyter config
+3. generate jupyter config
 
 ubuntu
 ```linux
@@ -165,7 +169,7 @@ passwd()
 
 ubuntu
 ```linux
-vim ~/.jupyter/jupyter_notebook_config.py 
+$ vim ~/.jupyter/jupyter_notebook_config.py 
 ```
 
 python
