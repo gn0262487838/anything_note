@@ -13,6 +13,10 @@
    * [HEROKU](#2-1)
    
    * [GITHUB](#2-2)
+   
+> [jupyterAwsEc2 Remote](#3)
+
+
 
 ## <h3 id="1">LINE BOT</h3>
 
@@ -118,3 +122,58 @@ git push heroku master
 4. git commit -m "message..."
 5. git push -u origin master ; -u表示預設origin master，之後再push時就只要打git push。
 ```
+
+## <h3 id="3">Jupyter on AWS EC2 for remote</h3>
+
+> log in AWS EC2 instance
+
+> check installs
+
+```linux
+sudo apt-get update
+
+sudo apt-get python3-pip python3-dev python-venv
+
+sudo apt-get install git
+
+sudo apt-get install ufw
+
+sudo ufw allow ssh
+
+sudo python3 -m pip install jupyter
+```
+
+> generate jupyter config
+
+```linux
+jupyter notebook --generate-config
+
+cd 'The config file should be located under path'
+
+ipython
+```
+
+```python
+from notebook.auth import passwd
+passwd()
+
+# remember your password
+```
+
+```linux
+vim ~/.jupyter/jupyter_notebook_config.py 
+```
+
+```python
+# Notebook config
+
+c = get_config()
+
+c.NotebookApp.allow_origin = 'put your public IP Address here'
+c.NotebookApp.ip = '*'
+c.NotebookApp.allow_remote_access = True
+c.NotebookApp.open_browser = False
+c.NotebookApp.password = u'your password'
+c.NotebookApp.port = 8888
+
+# now open your local browser,then enjoy yuor jupyter
