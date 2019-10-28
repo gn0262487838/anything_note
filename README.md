@@ -2,41 +2,41 @@
 
 > [LINE BOT](#1)
 
- * [VM設定](#1-1)
+   * [VM設定](#1-1)
 
- * [對接LINE API](#1-2)
+   * [對接LINE API](#1-2)
 
- * [經典款實作構想](#1-3)
+   * [經典款實作構想](#1-3)
    
 > [GIT](#2)
 
- * [HEROKU](#2-1)
+   * [HEROKU](#2-1)
 
- * [GITHUB COMMAND](#2-2)
+   * [GITHUB COMMAND](#2-2)
    
 > [Jupyter on AWS EC2 for remote](#3)
 
 > [DockerInstall](#4)
 
- *   [Graph](#4-1)
+   * [Graph](#4-1)
 
- *   [CE版 & EE版](#4-2)
+   * [CE版 & EE版](#4-2)
 
- *   [Nouns](#4-3)
+   * [Nouns](#4-3)
 
- *   [Docekr Install for Windows home](#4-4)
+   * [Docekr Install for Windows home](#4-4)
 
- *   [Docker Install for Ubuntu](#4-5)
+   * [Docker Install for Ubuntu](#4-5)
 
- *   [Docker command line](#4-6)
+   * [Docker command line](#4-6)
 
- *   [Dockerfile](#4-7)
+   * [Dockerfile](#4-7)
 
- *   [創建自己的images](#4-8)
+   * [創建自己的images](#4-8)
 
- *   [Push Dockerhub](#4-9)
+   * [Push Dockerhub](#4-9)
 
- *   [jupyter/base-notebook image QA](#4-10)
+   * [jupyter/base-notebook image QA](#4-10)
    
    
 ## <h3 id="1">LINE BOT</h3>
