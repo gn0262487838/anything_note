@@ -14,7 +14,7 @@
    
    * [GITHUB](#2-2)
    
-> [jupyterAwsEc2 Remote](#3)
+> [Jupyter on AWS EC2 for remote](#3)
 
 
 
