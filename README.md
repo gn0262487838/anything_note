@@ -177,3 +177,4 @@ c.NotebookApp.password = u'your password'
 c.NotebookApp.port = 8888
 
 # now open your local browser,then enjoy yuor jupyter
+```
