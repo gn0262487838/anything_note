@@ -12,7 +12,7 @@
 
    * [HEROKU](#2-1)
    
-   * [GITHUB](#2-2)
+   * [GITHUB COMMAND](#2-2)
    
 > [Jupyter on AWS EC2 for remote](#3)
 
@@ -103,7 +103,7 @@ git commit -m "message"
 git push heroku master
 ```
 
-### <h3 id="2-2">GITHUB</h3>
+### <h3 id="2-2">GITHUB COMMAND</h3>
 
 假設我現在在桌面創新資料夾，並開啟cmd
 
