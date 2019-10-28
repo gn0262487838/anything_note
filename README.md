@@ -6,7 +6,7 @@
 
 
 
-<h3 id="1">## LINE BOT</h3>
+<h3 id="1">LINE BOT</h3>
 
 ### VM設定
 
