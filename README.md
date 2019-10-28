@@ -40,7 +40,7 @@
 
 * 自己研究
 
-### <h3 id="1">對接LINE API</h3> 
+### <h3 id="1-2">對接LINE API</h3> 
 
 > Line message api
 
