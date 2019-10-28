@@ -1,6 +1,12 @@
 # 雜記
 
-## [TOC]LINE BOT
+> [LINE BOT](#1)
+
+> [目錄2](#2)
+
+<h3 id="1">LINE BOT</h3>
+
+## LINE BOT
 
 ### VM設定
 
