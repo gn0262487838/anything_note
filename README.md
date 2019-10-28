@@ -384,6 +384,7 @@ $ sudo docker push yourDockerHubName/ImageName:tag
 ### <h3 id="4-10">jupyter/base-notebook image QA</h3>
 
 Q.在開啟容器bash時，會遇到使用者已經被定義好而無法使用sudo的情況。
+
 A.$ docker run -it --net=host --user root -e GRANT_SUDO=yes jupyter/base-notebook /bin/bash
 
 * --net=host 表示指定容器本身的網域不做隔閡，直接跟本機網域共用。
