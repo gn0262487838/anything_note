@@ -8,7 +8,11 @@
    
    * [經典款實作構想](#1-3)
    
-> [目錄2](#2)
+> [GIT](#2)
+
+   * [HEROKU](#2-1)
+   
+   * [GITHUB](#2-2)
 
 ## <h3 id="1">LINE BOT</h3>
 
@@ -78,3 +82,39 @@
 > 取個資
 
 > 綁定用戶及發送歡迎詞
+
+# <h3 id="2">GIT COMMAND</h3>
+
+### <h3 id="2-1">HEROKU</h3>
+
+```python
+# Install the Heroku CLI 
+
+# 檔案上傳指令
+heroku login
+git add .
+git commit -m "message"
+git push heroku master
+```
+
+### <h3 id="2-2">GITHUB</h3>
+
+假設我現在在桌面創新資料夾，並開啟cmd
+* git blame >>> 查看這個爛code誰寫。
+* git log >>> 查看異動紀錄。
+* git clone url >>> download repo
+
+```python
+# 初始化
+1. git init 初始化資料夾
+2. git remote add origin https://github.com/gn0262487838/... ;建立remote。
+3. git push -u origin master ;設定為預設路徑。
+4. git status 檢查資料狀態
+```
+
+```python
+# 開始使用
+3. git add "檔名" or git add . ;表所有檔案
+4. git commit -m "message..."
+5. git push -u origin master ; -u表示預設origin master，之後再push時就只要打git push。
+```
