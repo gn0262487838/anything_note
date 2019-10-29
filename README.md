@@ -71,7 +71,7 @@
 
 4. sh start.sh 啟動環境
 
-> <h3 id="4">Docker</h3> 
+> Docker start
 
 ### <h3 id="1-2">對接LINE API</h3> 
 
