@@ -339,6 +339,10 @@ $ docker exec -it containerID bash
 # 查看目前的container
 
 $ docker ps -all
+
+# 查看目前docker 容量使用狀態
+
+$ docker system df 
 ```
 
 ### <h3 id="4-7">Dockerfile</h3>
