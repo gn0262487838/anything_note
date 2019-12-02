@@ -44,6 +44,10 @@
    
    * [Linux uninstall command](#5-2)
    
+> [VS Code](#6)
+
+   * [基本環境設置](#6-1)
+   
    
 ## <h3 id="1">LINE BOT</h3>
 
@@ -461,4 +465,27 @@ ubuntu
 # -r "targetdirectory"
 
 $ rm -r ./venv
+```
+
+## <h3 id="6">VS Code</h3>
+
+### <h3 id="6-1">基本環境設定</h3>
+
+```settings.json
+{
+    "python.pythonPath": "你python編譯器的路徑\\python.exe",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "files.trimTrailingWhitespace": true, // 儲存的時候，自動過濾多餘空格
+    "files.autoSave": "onFocusChange", // 是否自動儲存檔案
+    "[python]":{  
+        "editor.formatOnType": true,
+        "editor.formatOnSave": true,
+        "editor.renderIndentGuides": true,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": true,
+        "editor.tabSize": 4
+    },
+}
+
 ```
