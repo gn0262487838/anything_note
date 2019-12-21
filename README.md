@@ -158,9 +158,9 @@ git
 git
 ```git
 # 開始使用
-3. git add "檔名" or git add . ;表所有檔案
-4. git commit -m "message..."
-5. git push -u origin master ; -u表示預設origin master，之後再push時就只要打git push。
+1. git add "檔名" or git add . ;表所有檔案
+2. git commit -m "message..."
+3. git push -u origin master ; -u表示預設origin master，之後再push時就只要打git push。
 ```
 
 git
@@ -168,7 +168,7 @@ git
 # 回到某一版
 1. git log ; 查看log並找尋版號(ex. commit asggr43vsa...)
 2. git reset --hard 版號 ; --hard 表示當前的檔案，如不加只會改變版號而不會改變內容物。
-3. git log ; 會發現少掉最新的版號，因為檔案以還原成過去的某一版
+3. git log ; 會發現少掉最新的版號，因為檔案已還原成過去的某一版
 # 回到未來某一版
 1. git relog ; 即可看到過去及未來的log
 2. git reset --hard 版號
