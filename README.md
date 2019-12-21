@@ -24,7 +24,7 @@
 
    * [Nouns](#4-3)
 
-   * [Docekr Install for Windows home](#4-4)
+   * [Docekr Install for Windows home](#4-4)git
 
    * [Docker Install for Ubuntu](#4-5)
 
@@ -146,8 +146,8 @@ git push heroku master
 
 * git clone url >>> download repo
 
-python
-```python
+git
+```git
 # 初始化
 1. git init 初始化資料夾
 2. git remote add origin https://github.com/gn0262487838/... ;建立remote。
@@ -155,13 +155,27 @@ python
 4. git status 檢查資料狀態
 ```
 
-python
-```python
+git
+```git
 # 開始使用
 3. git add "檔名" or git add . ;表所有檔案
 4. git commit -m "message..."
 5. git push -u origin master ; -u表示預設origin master，之後再push時就只要打git push。
 ```
+
+git
+```
+# 回到某一版
+1. git log ; 查看log並找尋版號(ex. commit asggr43vsa...)
+2. git reset --hard 版號 ; --hard 表示當前的檔案，如不加只會改變版號而不會改變內容物。
+3. git log ; 會發現少掉最新的版號，因為檔案以還原成過去的某一版
+# 回到未來某一版
+1. git relog ; 即可看到過去及未來的log
+2. git reset --hard 版號
+
+* 如果下reset發現沒有變回來，就表示忘了加--hard，直接在下一次重新輸入指令時記得加上--hard就可以了!!!
+```
+
 
 ## <h3 id="3">Jupyter on AWS EC2 for remote</h3>
 
