@@ -469,7 +469,7 @@ $ rm -r ./venv
 
 ## <h3 id="6">VS Code</h3>
 
-### <h3 id="6-1">基本環境設定</h3>
+### <h3 id="6-1">Python基本環境設定</h3>
 
 ```settings.json
 {
