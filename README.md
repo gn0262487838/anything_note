@@ -350,7 +350,7 @@ $ docker restart containerID
 
 $ docker rm containerID
 
-# 進入在運作的container
+# 進入在運作的container(使用此指令，可在cmd上打exit直接離開且並不會關閉container!!!如果使用attach則不行這樣~)
 
 $ docker exec -it containerID bash
 
