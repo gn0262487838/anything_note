@@ -519,7 +519,7 @@ $ rm -r ./venv
 
 來自Debian 
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Logo-ubuntu_cof-orange-hex.svg/1024px-Logo-ubuntu_cof-orange-hex.svg.png)
+![](https://assets.ubuntu.com/v1/8dd99b80-ubuntu-logo14.png)
 
 * 軟體套件管理主要是apt-get，使用 apt-get install/remove 套件名稱 來安裝/移除套件
 
