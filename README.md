@@ -519,8 +519,7 @@ $ rm -r ./venv
 
 來自Debian 
 
-![]
-(https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Logo-ubuntu_cof-orange-hex.svg/1024px-Logo-ubuntu_cof-orange-hex.svg.png)
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Logo-ubuntu_cof-orange-hex.svg/1024px-Logo-ubuntu_cof-orange-hex.svg.png)
 
 * 軟體套件管理主要是apt-get，使用 apt-get install/remove 套件名稱 來安裝/移除套件
 
@@ -528,8 +527,7 @@ $ rm -r ./venv
 
 來自Red hat
 
-![]
-(https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Centos-logo-light.svg/658px-Centos-logo-light.svg.png)
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Centos-logo-light.svg/658px-Centos-logo-light.svg.png)
 
 * 軟體套件管理主要是yum，使用 yum install 套件名稱 來安裝套件
 
