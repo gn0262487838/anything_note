@@ -503,3 +503,116 @@ $ rm -r ./venv
 }
 
 ```
+
+## <h3 id="7">Linux 基本概念及指令整理</h>
+
+### <h3 id="7-1">Linux 系統</h>
+
+來自Debian 
+![](https://www.google.com/imgres?imgurl=https%3A%2F%2Fassets.ubuntu.com%2Fv1%2F8dd99b80-ubuntu-logo14.png&imgrefurl=https%3A%2F%2Fdesign.ubuntu.com%2Fbrand%2Fubuntu-logo%2F&docid=Qce3Y1oruAAVjM&tbnid=wcQ5hoclK0RVIM%3A&vet=10ahUKEwj20fGEzPHmAhUPBKYKHV3yDN4QMwhYKAowCg..i&w=540&h=243&bih=625&biw=1366&q=ubuntu%20logo&ved=0ahUKEwj20fGEzPHmAhUPBKYKHV3yDN4QMwhYKAowCg&iact=mrc&uact=8)
+
+* 軟體套件管理主要是apt-get，使用 apt-get install/remove 套件名稱 來安裝/移除套件
+
+* 不支援cPanel
+
+來自Red hat
+![](https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fb%2Fbf%2FCentos-logo-light.svg%2F658px-Centos-logo-light.svg.png&imgrefurl=https%3A%2F%2Fzh-yue.m.wikipedia.org%2Fwiki%2FFile%3ACentos-logo-light.svg&docid=ypB_jyJsE9mFqM&tbnid=YqZG6wNYj5OphM%3A&vet=10ahUKEwiXvITnzPHmAhVWZ94KHUABB9AQMwhGKAIwAg..i&w=658&h=222&bih=625&biw=1366&q=centos%20logo&ved=0ahUKEwiXvITnzPHmAhVWZ94KHUABB9AQMwhGKAIwAg&iact=mrc&uact=8)
+
+* 軟體套件管理主要是yum，使用 yum install 套件名稱 來安裝套件
+
+* 支援cPanel
+
+### <h3 id="7-2">Linux 基本檔案權限概念</h>
+
+> 身分別
+  
+  1. u : user   使用者
+  2. g : group  群組
+  3. o : other  其他人
+  4. a : all(以上三種都包含)
+  
+> 檔案權限
+  
+  分為 r、w、x
+  1. r : 只可讀取    也可表示成數字 : 1
+  2. w : 可以被寫入  也可表示成數字 : 2
+  3. x : 能被執行    也可表示成數字 : 4
+  
+* 檔案資訊
+
+drwxrwxr-x. 2 root mail 1024  1月 07 10:10 /var/jack
+    A       B   C    D    E         F          G
+
+1. A : 第一字元為檔案類型:
+          * - : 表 一般檔案
+          * d : 表 目錄檔(資料夾的意思)
+       第二到第四為一組 表 使用者權限或者root權限
+       第五到第七為一組 表 群組權限
+       第七到第九為一組 表 other權限
+2. B : 檔案連結數
+3. C : 檔案擁有者
+4. D : 所屬群組
+5. E : 檔案大小(kb)
+6. F : 最後修改日期與時間
+7. G : 檔案所在位置及名稱
+
+### <h3 id="7-3">Linux 系統架構</h>
+
+* 以下路徑為大致擺放的物件，視個別配置會有所不同。
+
+> /usr 全名unix software resource
+
+> /usr/bin 放置一般使用者可以操作的指令(類似設定windows環境參數一樣)
+
+> /usr/sbin 放置root可以操作的指令(類似設定windows環境參數一樣)
+
+> /usr/lib 放置系統函式庫或核心函式庫(64位元放在/usr/lib64)
+
+> /boot 放置開機相關檔案
+
+> /dev 放置device檔案 ex.鍵盤滑鼠...等
+
+> /etc 放置系統檔案
+
+> /home 一般使用者的家目錄(常用的表示方式 : ~/ )
+
+> /root 系統管理員的家目錄
+
+> /var 放置變數或紀錄檔
+
+> /tmp 全名temporary
+
+> /opt 全名optional
+
+### <h3 id="7-4">Linux 常用指令</h>
+
+* 可使用 man 指令 來查看說明手冊!!!
+
+ubuntu
+```ubuntu
+0. clear 清除terminal std output
+1. echo
+2. ls 查看檔案資訊 
+3. ll 查看檔案資訊
+4. pwd 列印出目前工作目錄
+5. cd 移動到XX目錄　(~ : 家目錄　.. : 上一層目錄　/ : 根目錄)
+6. cp 複製一份
+7. mv 移動某個檔案(資料夾)到另外一個地方 或 更改檔案(資料夾)名稱
+8. rm [-r][-f][-rf] 刪除檔案(使用此指令記住，別亂使用!!!!! 　[] 表 參數 )
+7. mkdir 創建資料夾
+8. file 檢查檔案類型
+9. find 搜尋檔案
+10.id 查詢當前使用者的uid及gid
+11.grep 文字搜索
+12.touch 更改timestamp或者新增空白檔案
+13.chmod 更改檔案權限
+14.cat 將文件內容輸出至terminal
+15.vim 進入vim編輯器
+16.useradd
+17.passwd
+18.usermo
+19.userdel -r(加上-r表示連同家目錄及郵件夾都刪除，如忘了加，都要手動刪除喔!!!)
+20.kill 使用PID來終止程式
+21.killall 使用檔案名稱來終止程式
+22.crontab 例行性工作排程
+```
