@@ -518,6 +518,7 @@ $ rm -r ./venv
 ### <h3 id="7-1">Linux 系統</h>
 
 來自Debian 
+
 ![]
 (https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Logo-ubuntu_cof-orange-hex.svg/1024px-Logo-ubuntu_cof-orange-hex.svg.png)
 
@@ -526,6 +527,7 @@ $ rm -r ./venv
 * 不支援cPanel
 
 來自Red hat
+
 ![]
 (https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Centos-logo-light.svg/658px-Centos-logo-light.svg.png)
 
