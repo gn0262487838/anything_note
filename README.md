@@ -24,7 +24,7 @@
 
    * [Nouns](#4-3)
 
-   * [Docekr Install for Windows home](#4-4)git
+   * [Docekr Install for Windows home](#4-4)
 
    * [Docker Install for Ubuntu](#4-5)
 
