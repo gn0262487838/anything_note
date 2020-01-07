@@ -54,7 +54,7 @@
    
    * [Linux 基本檔案權限概念](#7-2)
    
-   * [Linux 系統架構](#7-3)
+   * [Linux 資源架構](#7-3)
    
    * [Linux 常用指令](#7-4)
    
@@ -518,14 +518,16 @@ $ rm -r ./venv
 ### <h3 id="7-1">Linux 系統</h>
 
 來自Debian 
-![](https://www.google.com/imgres?imgurl=https%3A%2F%2Fassets.ubuntu.com%2Fv1%2F8dd99b80-ubuntu-logo14.png&imgrefurl=https%3A%2F%2Fdesign.ubuntu.com%2Fbrand%2Fubuntu-logo%2F&docid=Qce3Y1oruAAVjM&tbnid=wcQ5hoclK0RVIM%3A&vet=10ahUKEwj20fGEzPHmAhUPBKYKHV3yDN4QMwhYKAowCg..i&w=540&h=243&bih=625&biw=1366&q=ubuntu%20logo&ved=0ahUKEwj20fGEzPHmAhUPBKYKHV3yDN4QMwhYKAowCg&iact=mrc&uact=8)
+![]
+(https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Logo-ubuntu_cof-orange-hex.svg/1024px-Logo-ubuntu_cof-orange-hex.svg.png)
 
 * 軟體套件管理主要是apt-get，使用 apt-get install/remove 套件名稱 來安裝/移除套件
 
 * 不支援cPanel
 
 來自Red hat
-![](https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fb%2Fbf%2FCentos-logo-light.svg%2F658px-Centos-logo-light.svg.png&imgrefurl=https%3A%2F%2Fzh-yue.m.wikipedia.org%2Fwiki%2FFile%3ACentos-logo-light.svg&docid=ypB_jyJsE9mFqM&tbnid=YqZG6wNYj5OphM%3A&vet=10ahUKEwiXvITnzPHmAhVWZ94KHUABB9AQMwhGKAIwAg..i&w=658&h=222&bih=625&biw=1366&q=centos%20logo&ved=0ahUKEwiXvITnzPHmAhVWZ94KHUABB9AQMwhGKAIwAg&iact=mrc&uact=8)
+![]
+(https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Centos-logo-light.svg/658px-Centos-logo-light.svg.png)
 
 * 軟體套件管理主要是yum，使用 yum install 套件名稱 來安裝套件
 
@@ -567,7 +569,7 @@ drwxrwxr-x. 2 root mail 1024  1月 07 10:10 /var/jack
 7. G : 檔案所在位置及名稱
 ```
 
-### <h3 id="7-3">Linux 系統架構</h>
+### <h3 id="7-3">Linux 資源架構</h>
 
 * 以下路徑為大致擺放的物件，視個別配置會有所不同。
 
