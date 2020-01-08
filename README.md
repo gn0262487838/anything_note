@@ -513,7 +513,7 @@ $ rm -r ./venv
 
 [詳情請查閱官方github](https://github.com/Microsoft/vscode-tips-and-tricks)
 
-### <h3 id="6-2">Python基本環境設定</h3>
+### <h3 id="6-2">setting.json</h3>
 
 ```settings.json
 {
