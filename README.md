@@ -517,20 +517,52 @@ $ rm -r ./venv
 
 ```settings.json
 {
-    "python.pythonPath": "你python編譯器的路徑\\python.exe",
-    "python.linting.enabled": true,
-    "python.linting.pylintEnabled": true,
-    "files.trimTrailingWhitespace": true, // 儲存的時候，自動過濾多餘空格
-    "files.autoSave": "onFocusChange", // 是否自動儲存檔案
-    "[python]":{  
-        "editor.formatOnType": true,
-        "editor.formatOnSave": true,
-        "editor.renderIndentGuides": true,
-        "editor.insertSpaces": true,
-        "editor.detectIndentation": true,
-        "editor.tabSize": 4
-    },
+  "files.trimTrailingWhitespace": true, // 儲存的時候，自動過濾多餘空格
+  "files.autoSave": "onWindowChange", // 是否自動儲存檔案
+  "files.autoGuessEncoding": true,
+  "files.defaultLanguage": "markdown",
+
+  "editor.fontSize": 20,
+  "editor.wordWrap": "on", // code的顯示範圍，超過就換行。
+  "editor.renderIndentGuides": true, // 顯示縮排線
+
+  "terminal.integrated.fontSize": 20,
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.rightClickBehavior": "copyPaste",
+
+  "python.pythonPath": "你python編譯器的路徑\\python.exe",
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true,
+    "editor.showFoldingControls": "always",
+    "editor.formatOnType": true,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": true,
+  },
+
+  "[html]": {
+    "editor.tabSize": 2,
+    "editor.autoIndent": "none",
+  },
+
+  "git.autofetch": false,
+  // 讓 VSCode 在背景自動執行 git fetch
+  "git.enableSmartCommit": false,
+  // 如果所有變更都還沒有 git add ( Stage ) 的話，預設會自動全部 Commit，不會再先問過。
+  "git.confirmSync": true,
+  // 當要同步 Git 遠端儲存庫時，false表示不需要再提問。
+  
+  "auto-rename-tag.activationOnLanguage": [
+    "html",
+    "xml",
+    "php"
+  ],
+  // 因為 Auto Rename Tag 擴充套件非常好用，但預設會自動套用在所有檔案格式，這會帶來一些麻煩。
+  // 例如在 JS/TS 檔案中剛好改到有 < 的內容時，會導致程式被改壞，所以建議限制特定檔案才需要這個功能。
 }
+
 
 ```
 
