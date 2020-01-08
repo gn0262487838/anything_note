@@ -46,7 +46,9 @@
    
 > [VS Code](#6)
 
-   * [Python基本環境設置](#6-1)
+   * [Hot Key](#6-1)
+
+   * [Python基本環境設置](#6-2)
    
 > [Linux 基本概念及指令整理](#7)
 
@@ -492,7 +494,26 @@ $ rm -r ./venv
 
 ## <h3 id="6">VS Code</h3>
 
-### <h3 id="6-1">Python基本環境設定</h3>
+### <h3 id="6-1">Hot Key</h3>
+
+1. ctrl + shift + p 指令搜尋
+2. ctrl + shift + f global reference search or global file search
+3. ctrl + p 在跳出的小視窗中打 
+  * > 即是第一項的功能
+  * : 即可以row number搜尋code
+4. ctrl + 上或下鍵 捲動視窗
+5. ctrl + ` 顯示或隱藏terminal
+6. ctrl + 數字鍵 切換分割視窗
+7. ctrl + w 關閉所選的視窗(或分割視窗)
+8. ctrl + tab 選擇視窗(或檔案)
+9. ctrl + F2 此功能不分大小寫，搜尋相同的變數或函式名稱，可同時修改或更正!!!
+9. alt + 左或右鍵 可選擇視窗，跟第八項功能類似
+10. alt + 上或下鍵 可整批移動code的位置
+11. alt + 滑鼠左鍵 可選取多個位置
+
+![詳情請查閱官方github](https://github.com/Microsoft/vscode-tips-and-tricks)
+
+### <h3 id="6-2">Python基本環境設定</h3>
 
 ```settings.json
 {
@@ -513,9 +534,9 @@ $ rm -r ./venv
 
 ```
 
-## <h3 id="7">Linux 基本概念及指令整理</h>
+## <h3 id="7">Linux 基本概念及指令整理</h3>
 
-### <h3 id="7-1">Linux 系統</h>
+### <h3 id="7-1">Linux 系統</h3>
 
 來自Debian 
 
@@ -529,11 +550,11 @@ $ rm -r ./venv
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Centos-logo-light.svg/658px-Centos-logo-light.svg.png)
 
-* 軟體套件管理主要是yum，使用 yum install 套件名稱 來安裝套件
+* 軟體套件管理主要是yum，使用 yum install/remove 套件名稱 來安裝/移除套件
 
 * 支援cPanel
 
-### <h3 id="7-2">Linux 基本檔案權限概念</h>
+### <h3 id="7-2">Linux 基本檔案權限概念</h3>
 
 > 身分別
   
@@ -569,7 +590,7 @@ drwxrwxr-x. 2 root mail 1024  1月 07 10:10 /var/jack
 7. G : 檔案所在位置及名稱
 ```
 
-### <h3 id="7-3">Linux 資源架構</h>
+### <h3 id="7-3">Linux 資源架構</h3>
 
 * 以下路徑為大致擺放的物件，視個別配置會有所不同。
 
@@ -597,12 +618,12 @@ drwxrwxr-x. 2 root mail 1024  1月 07 10:10 /var/jack
 
 > /opt 全名optional
 
-### <h3 id="7-4">Linux 常用指令</h>
+### <h3 id="7-4">Linux 常用指令</h3>
 
 * 可使用 man 指令 來查看說明手冊!!!
 
-ubuntu
-```ubuntu
+linux
+```linux
 0. clear 清除terminal std output
 1. echo
 2. ls 查看檔案資訊 
