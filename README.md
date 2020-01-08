@@ -499,8 +499,8 @@ $ rm -r ./venv
 1. ctrl + shift + p 指令搜尋
 2. ctrl + shift + f global reference search or global file search
 3. ctrl + p 在跳出的小視窗中打 
-  * > 即是第一項的功能
-  * : 即可以row number搜尋code
+   " > " 即是第一項的功能
+   " : " 即可以row number搜尋code
 4. ctrl + 上或下鍵 捲動視窗
 5. ctrl + ` 顯示或隱藏terminal
 6. ctrl + 數字鍵 切換分割視窗
@@ -511,7 +511,7 @@ $ rm -r ./venv
 10. alt + 上或下鍵 可整批移動code的位置
 11. alt + 滑鼠左鍵 可選取多個位置
 
-![詳情請查閱官方github](https://github.com/Microsoft/vscode-tips-and-tricks)
+[詳情請查閱官方github](https://github.com/Microsoft/vscode-tips-and-tricks)
 
 ### <h3 id="6-2">Python基本環境設定</h3>
 
