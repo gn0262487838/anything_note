@@ -1,3 +1,4 @@
+// only .vscode use
 {
   "files.trimTrailingWhitespace": true, 
   "files.autoSave": "onWindowChange", 
