@@ -1,0 +1,85 @@
+{
+  "files.trimTrailingWhitespace": true, 
+  "files.autoSave": "onWindowChange", 
+  "files.autoGuessEncoding": true,
+  "files.defaultLanguage": "markdown",
+
+  "editor.tabSize": 2,
+  "editor.fontSize": 20,
+  "editor.wordWrap": "on",
+  "editor.renderIndentGuides": true,
+    
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "Monokai",
+
+  "explorer.confirmDelete": false,
+
+  "window.zoomLevel": 0,
+
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "terminal.integrated.fontSize": 20,
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.rightClickBehavior": "copyPaste",
+
+  "python.pythonPath": "C:\\Users\\kenko\\AppData\\Local\\Programs\\Python\\Python37\\python.exe",
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true,
+    "editor.showFoldingControls": "always",
+    "editor.formatOnType": true,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": true
+  },
+
+  "[html]": {
+    "editor.tabSize": 2,
+    "editor.autoIndent": "none"
+  },
+
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.autoIndent": "none"
+  },
+
+  "git.autofetch": false,
+
+  "git.enableSmartCommit": false,
+
+  "git.confirmSync": true,
+
+  "todo-tree.general.tags": [
+    "TODO",
+    "FIXME",
+    "QUIZ"
+  ],
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "icon": "check",
+      "type": "tag",
+      "foreground": "black",
+      "background": "yellow",
+      "opacity": 100,
+      "iconColour": "yellow"
+    },
+    "FIXME": {
+      "icon": "alert",
+      "type": "tag",
+      "foreground": "white",
+      "background": "red",
+      "opacity": 50,
+      "iconColour": "red"
+    },
+    "QUIZ": {
+      "icon": "question",
+      "type": "tag",
+      "foreground": "white",
+      "background": "blue",
+      "opacity": 50,
+      "iconColour": "blue"
+    }
+  },
+
+  "auto-rename-tag.activationOnLanguage": ["html", "xml", "php"]
+}
