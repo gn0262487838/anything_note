@@ -189,6 +189,22 @@ git
 
 git
 ```
+# 查看分支
+1. git branch
+# 建立新分支
+1. git branch 分支名稱
+# 前往分支
+1. git checkout
+# 刪除分支
+1. git branch -D 分支名稱
+
+* 注意，無法刪除目前所在的分支，需要切換到別的分支才能刪除本來所在位置的分支!!!
+
+
+```
+
+git
+```
 # 現在有兩個RD，RD1異動test1.txt中func1並新增test2.txt，RD2修改test1.txt中func2並新增test3.txt
 # 此時RD1先做完並commit and push並告知RD2他做完了，RD2想說先pull下來他的檔案再繼續修改，
 # 但他遇到無法先pull下來，他該怎麼做才能把RD1檔案pull下來並不會覆蓋自己已經寫好的func2?
