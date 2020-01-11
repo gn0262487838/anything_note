@@ -1,4 +1,7 @@
 // only .vscode use
+// tools:
+// 1. Python 2. JavaScript(ES6) 3. ESLint 4. Code Runner(安裝此套件前，要先去node.js官網下載安裝好後再安裝此套件) 
+// 5. GitLens 6. Todo Tree 7. Auto Rename Tag 8. vscode-icons
 {
   "files.trimTrailingWhitespace": true, 
   "files.autoSave": "onWindowChange", 
