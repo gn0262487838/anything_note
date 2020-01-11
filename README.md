@@ -187,6 +187,21 @@ git
 * 如果下reset發現沒有變回來，就表示忘了加--hard，直接在下一次重新輸入指令時記得加上--hard就可以了!!!
 ```
 
+git
+```
+# 現在有兩個RD，RD1異動test1.txt中func1並新增test2.txt，RD2修改test1.txt中func2並新增test3.txt
+# 此時RD1先做完並commit and push並告知RD2他做完了，RD2想說先pull下來他的檔案再繼續修改，
+# 但他遇到無法先pull下來，他該怎麼做才能把RD1檔案pull下來並不會覆蓋自己已經寫好的func2?
+# 此時有兩種做法，一種先commit，另一種是stash(建議使用，這樣之後維護比較好追蹤!!!)
+1. git add .
+2. git stash save "封存名稱"  
+3. git stash list 查看目前有那些stash
+4. git pull 把RD1檔案download and merge
+5. git stash pop stash@{0} 把剛剛第二步驟封存的資料加回來到目前分支並刪除此stash
+
+* 如果stash裡面有多餘的不想用，可用git stash drop stash@{1} 就可以直接從stash裡面刪除!!!
+```
+
 
 ## <h3 id="3">Jupyter on AWS EC2 for remote</h3>
 
