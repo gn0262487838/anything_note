@@ -39,11 +39,6 @@
     "editor.autoIndent": "none"
   },
 
-  "[javascript]": {
-    "editor.tabSize": 2,
-    "editor.autoIndent": "none"
-  },
-
   "git.autofetch": false,
 
   "git.enableSmartCommit": false,
@@ -82,5 +77,5 @@
     }
   },
 
-  "auto-rename-tag.activationOnLanguage": ["html", "xml", "php"]
+  "auto-rename-tag.activationOnLanguage": ["html", "xml", "php","javascript"]
 }
