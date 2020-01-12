@@ -80,7 +80,7 @@
     }
   },
 
-  "auto-rename-tag.activationOnLanguage": ["html", "xml", "php","javascript"]
+  "auto-rename-tag.activationOnLanguage": ["html", "xml", "php","javascript"],
   
   "code-runner.runInTerminal": true,
 
