@@ -81,4 +81,7 @@
   },
 
   "auto-rename-tag.activationOnLanguage": ["html", "xml", "php","javascript"]
+  
+  "code-runner.runInTerminal": true,
+
 }
