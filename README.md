@@ -181,7 +181,7 @@ git
 2. git reset --hard 版號 ; --hard 表示當前的檔案，如不加只會改變版號而不會改變內容物。
 3. git log ; 會發現少掉最新的版號，因為檔案已還原成過去的某一版
 # 回到未來某一版
-1. git relog ; 即可看到過去及未來的log
+1. git reflog ; 即可看到過去及未來的log
 2. git reset --hard 版號
 
 * 如果下reset發現沒有變回來，就表示忘了加--hard，直接在下一次重新輸入指令時記得加上--hard就可以了!!!
